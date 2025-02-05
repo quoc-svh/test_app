@@ -1,0 +1,65 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "test_app",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "test_app (profile mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "test_app (release mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "package_1",
+            "cwd": "lib/packages/package_1",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "package_1 (profile mode)",
+            "cwd": "lib/packages/package_1",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "package_1 (release mode)",
+            "cwd": "lib/packages/package_1",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "package_2",
+            "cwd": "lib/packages/package_2",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "package_2 (profile mode)",
+            "cwd": "lib/packages/package_2",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "package_2 (release mode)",
+            "cwd": "lib/packages/package_2",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        }
+    ]
+}
