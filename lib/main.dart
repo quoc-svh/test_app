@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:package_1/package_1.dart';
+import 'package:package_3/package_3.dart';
+import 'package:package_2/package_2.dart';
 
 void main() {
   runApp(const MyApp());
@@ -112,6 +115,35 @@ class _MyHomePageState extends State<MyHomePage> {
               '$_counter',
               style: Theme.of(context).textTheme.headlineMedium,
             ),
+            ElevatedButton(
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => TestScreenPackage1()),
+                );
+              },
+              child: Text('Go to Test Screen Package 1'),
+            ),
+            SizedBox(height: 20),
+            ElevatedButton(
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => TestScreenPackage2()),
+                );
+              },
+              child: Text('Go to Test Screen Package 2'),
+            ),
+            SizedBox(height: 20),
+            ElevatedButton(
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => TestScreenPackage3()),
+                );
+              },
+              child: Text('Go to Test Screen Package 3'),
+            )
           ],
         ),
       ),

@@ -13,14 +13,6 @@ command:
   bootstrap:
     usePubspecOverrides: true
     runPubGetInParallel: false
-  version:
-    # Generate changelogs and commit version bumps
-    workspaceChangelog: true
-    message: "chore(release): publish packages"
-    changelogHeader: |
-      # Change Log
-      All notable changes to this project will be documented in this file.
-      See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
 scripts:
   bootstrap:main:
@@ -29,8 +21,7 @@ scripts:
     run: cd lib/packages/package_1 && fvm flutter pub get
   bootstrap:package_2:
     run: cd lib/packages/package_2 && fvm flutter pub get
+  bootstrap:package_3:
+    run: cd lib/packages/package_3 && fvm flutter pub get
   bootstrap:all:
-    run: melos run bootstrap:main && melos run bootstrap:package_1 && melos run bootstrap:package_2
-  version:changelog:
-    # Generate changelog
-    run: melos version --no-git-tag-version
+    run: melos run bootstrap:main && melos run bootstrap:package_1 && melos run bootstrap:package_2 && melos run bootstrap:package_3
