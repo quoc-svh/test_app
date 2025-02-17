@@ -1,0 +1,12 @@
+{
+    "login_welcome": "Welcome",
+    "login_prompt": "To login, please enter your username and password.",
+    "login_username_hint": "Username",
+    "login_password_hint": "Password",
+    "login_action": "Login",
+    "login_register": "I want to register an account",
+    "login_forgot_password": "Forgot password",
+    "login_invalid_username": "Invalid username",
+    "login_invalid_password": "Invalid password",
+    "login_invalid_credentials": "Invalid username or password"
+}

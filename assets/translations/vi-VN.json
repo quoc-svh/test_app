@@ -1,0 +1,16 @@
+{
+    "main_to_login": "Đến trang đăng nhập",
+    "main_to_dashboard": "Đến trang báo cáo",
+    "main_to_product": "Đến trang sản phẩm",
+    "change_language": "Đổi ngôn ngữ",
+    "login_welcome": "Xin chào",
+    "login_prompt": "Vui lòng nhập tên đăng nhập và mật khẩu để đăng nhập.",
+    "login_username_hint": "Tên đăng nhập",
+    "login_password_hint": "Mật khẩu",
+    "login_action": "Đăng nhập",
+    "login_register": "Tôi muốn đăng ký tạo tài khoản",
+    "login_forgot_password": "Quên mật khẩu",
+    "login_invalid_username": "Tên đăng nhập không hợp lệ",
+    "login_invalid_password": "Mật khẩu không hợp lệ",
+    "login_invalid_credentials": "Tên đăng nhập hoặc mật khẩu không hợp lệ"
+}
