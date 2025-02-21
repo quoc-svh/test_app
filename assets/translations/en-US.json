@@ -12,5 +12,9 @@
     "login_forgot_password": "Forgot password",
     "login_invalid_username": "Invalid username",
     "login_invalid_password": "Invalid password",
-    "login_invalid_credentials": "Invalid username or password"
+    "login_invalid_credentials": "Invalid username or password",
+    "login_or": "Or",
+    "login_google": "Login with Google",
+    "login_facebook": "Login with Facebook",
+    "login_github": "Login with Github"
 }
