@@ -12,5 +12,9 @@
     "login_forgot_password": "Quên mật khẩu",
     "login_invalid_username": "Tên đăng nhập không hợp lệ",
     "login_invalid_password": "Mật khẩu không hợp lệ",
-    "login_invalid_credentials": "Tên đăng nhập hoặc mật khẩu không hợp lệ"
+    "login_invalid_credentials": "Tên đăng nhập hoặc mật khẩu không hợp lệ",
+    "login_or": "Hoặc",
+    "login_google": "Đăng nhập với Google",
+    "login_facebook": "Đăng nhập với Facebook",
+    "login_github": "Đăng nhập với Github"
 }
