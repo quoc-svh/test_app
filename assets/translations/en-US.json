@@ -1,4 +1,12 @@
 {
+    "timeout_failure": "The request has timed out. Please try again later.",
+    "bad_certificate_failure": "The certificate is invalid. Please check your connection.",
+    "connection_error_failure": "Unable to connect to the server. Please check your internet connection.",
+    "response_failure": "Received invalid response from server.",
+    "cancel_failure": "The request was cancelled.",
+    "server_failure": "An unknown server error occurred.",
+    "internal_failure": "An internal error occurred. Please try again.",
+    
     "main_to_login": "Go to login",
     "main_to_dashboard": "Go to dashboard",
     "main_to_product": "Go to product",
