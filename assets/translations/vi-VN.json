@@ -1,4 +1,12 @@
 {
+    "timeout_failure": "Yêu cầu đã hết thời gian. Vui lòng thử lại sau.",
+    "bad_certificate_failure": "Chứng chỉ không hợp lệ. Vui lòng kiểm tra kết nối của bạn.",
+    "connection_error_failure": "Không thể kết nối với máy chủ. Vui lòng kiểm tra kết nối internet.",
+    "response_failure": "Nhận phản hồi không hợp lệ từ máy chủ.",
+    "cancel_failure": "Yêu cầu đã bị hủy.",
+    "server_failure": "Lỗi máy chủ không xác định.",
+    "internal_failure": "Đã xảy ra lỗi nội bộ. Vui lòng thử lại.",
+    
     "main_to_login": "Đến trang đăng nhập",
     "main_to_dashboard": "Đến trang báo cáo",
     "main_to_product": "Đến trang sản phẩm",
